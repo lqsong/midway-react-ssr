@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": false,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "importHelpers": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "composite": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": [
+      "vite/client"
+    ],
+    "paths": {
+      "@/*": ["./*"],
+      "~/*": ["../*"],
+    }
+  },
+  "include": ["./@types","./**/*.ts", "./**/*.d.ts", "./**/*.tsx", "./**/*.vue"]
+}
